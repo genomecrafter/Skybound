@@ -280,20 +280,6 @@ Each concept is listed with the file and function where it is implemented. The s
 | Analogue gauges drawn with the Canvas 2D API (needle rotations, horizon transform) | `sim/Instruments.js` |
 | Gamepad API, mouse yoke via Pointer Lock deltas | `core/Input.js`: `pollGamepad`, `updateSim` |
 
----
-
-## Mapping to the lab requirements
-
-| Requirement | Implemented by |
-|---|---|
-| **Immersive** | Chase camera with lag and banking, cockpit view (C), sky domes and per-route fog, speed FOV, bloom and lens flare, procedural sound |
-| **Interactive** | Keyboard, mouse and gamepad flight, route menu, pause menu, checkpoint rings, Canyon landing, flight simulator with lessons and landing grading |
-| **Imaginative** | Aurora, sunset water and glowing ring shaders, vapour trails, captions at each route's moment |
-| **3D modelling** | Procedural aircraft (scene graph), terrain, islands, mountains, instanced trees and rocks, runway, lighthouse, birds |
-| **Animation and transformations** | Propeller, control surfaces, gear, pulsing and bursting rings, aurora, waves, birds, lighthouse beam, debug panel (T) |
-| **Light sources** | Directional sun or moon (shadows), hemisphere fill, nav PointLights, lighthouse SpotLight, runway PointLights |
-| **Sound (bonus)** | Engine, wind, chime, ocean ambience, touchdown, mute (M), starts after the first click |
-
 ## Credits
 - three.js (MIT) and simplex-noise (MIT), installed from npm.
 - Aurora technique (layered raymarch through triangle-wave noise) adapted from **"Auroras" by nimitz** on Shadertoy (CC BY-NC-SA 3.0); credited in `src/shaders/aurora.frag.glsl`.
