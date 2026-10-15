@@ -1,0 +1,19 @@
+{
+  "name": "skybound",
+  "version": "0.1.0",
+  "description": "Skybound - A Scenic Flight Experience (CG & VR lab mini project)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "simplex-noise": "^4.0.3",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}
